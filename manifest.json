@@ -1,0 +1,9 @@
+{
+  "id": "dom-google-tts",
+  "name": "Google TTS",
+  "version": "1.4.0",
+  "minAppVersion": "1.5.0",
+  "description": "Read notes aloud or generate a complete article MP3 and embed it above the passage.",
+  "author": "Dom",
+  "isDesktopOnly": true
+}

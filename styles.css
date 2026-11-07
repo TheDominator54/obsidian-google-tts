@@ -1,0 +1,10 @@
+.dom-google-tts-status { gap: 3px; display: flex; align-items: center; }
+.dom-google-tts-status button.clickable-icon { padding: 4px; width: 26px; height: 26px; background: transparent; box-shadow: none; color: var(--text-muted); }
+.dom-google-tts-status button.clickable-icon:hover:enabled { background: var(--background-modifier-hover); color: var(--text-normal); }
+.dom-google-tts-status button:disabled { opacity: 0.35; }
+.dom-google-tts-status svg { width: 16px; height: 16px; }
+.dom-google-tts-state { display: flex; align-items: center; padding: 4px; margin-right: 3px; }
+.dom-google-tts-state.is-error { color: var(--text-error); }
+.dom-google-tts-state.is-busy svg { animation: dom-google-tts-spin 1.2s linear infinite; }
+@keyframes dom-google-tts-spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) { .dom-google-tts-state.is-busy svg { animation: none; } }
