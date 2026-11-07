@@ -4,6 +4,10 @@ Read a note or selection aloud with Google text-to-speech, or save a complete MP
 
 Desktop only. This release has automated tests on macOS; it has not been tested on Windows or Linux. Python 3.10 or newer is required. FFmpeg is required for MP3 export. The Python speech client is bundled inside main.js, so no Codex installation is needed.
 
+## Install from GitHub
+
+[Download Google TTS 1.4.0](https://github.com/TheDominator54/obsidian-google-tts/releases/download/1.4.0/dom-google-tts-1.4.0.zip). Unzip it and move the `dom-google-tts` folder into your vault's `.obsidian/plugins/` folder. Reload Obsidian and enable Google TTS in Community plugins. You still need the local tools and Google authentication described below.
+
 ## Setup
 
 1. Install Python 3.10 or newer and FFmpeg. On an Apple Silicon Mac with Homebrew, use `brew install python ffmpeg`.
